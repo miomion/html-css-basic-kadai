@@ -14,7 +14,7 @@ main {
 }
 
 #parent {
-  display: inline-block;;
+  display: flex;
   justify-content: space-around;
 }
 
@@ -70,7 +70,7 @@ footer {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   h2 {
       font-size: 30px;
   }
